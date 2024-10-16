@@ -5,6 +5,7 @@
   fetchurl,
 }: let
   imports = [
+    ./birdbird-reascript-testing.nix
     ./perken.nix
     ./reapack.nix
   ];
