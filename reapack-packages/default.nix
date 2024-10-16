@@ -6,6 +6,7 @@
 }: let
   imports = [
     ./perken.nix
+    ./reapack.nix
   ];
   importedPackages = map (path: import path {inherit lib mkReapackPackage stdenv fetchurl;}) imports;
 in

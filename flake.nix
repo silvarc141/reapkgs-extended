@@ -2,6 +2,7 @@
   description = ''
     A reapkgs flake generated from the following Reapack indexes:
     https://raw.githubusercontent.com/AntoineBalaine/perken-reaper-scripts/refs/heads/main/index.xml
+    https://reapack.com/index.xml
 
     Links:
     Main repo: https://github.com/silvarc141/reapkgs
