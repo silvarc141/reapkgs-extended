@@ -3,6 +3,7 @@
     A reapkgs flake generated from the following Reapack indexes:
     https://raw.githubusercontent.com/AntoineBalaine/perken-reaper-scripts/refs/heads/main/index.xml
     https://raw.githubusercontent.com/Bird-Bird/ReaScript_Testing/main/index.xml
+    https://raw.githubusercontent.com/gwatcha/reaper-keys/refs/heads/master/index.xml
     https://reapack.com/index.xml
 
     Links:

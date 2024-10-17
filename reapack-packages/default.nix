@@ -8,6 +8,7 @@
     ./birdbird-reascript-testing.nix
     ./perken.nix
     ./reapack.nix
+    ./reaper-keys.nix
   ];
   importedPackages = map (path: import path {inherit lib mkReapackPackage stdenv fetchurl;}) imports;
 in
