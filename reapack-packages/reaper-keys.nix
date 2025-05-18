@@ -1158,7 +1158,7 @@
         {
           path = ''../vendor/scythe/gui/elements/Radio.lua'';
           url = "https://github.com/gwatcha/reaper-keys/raw/4576b9cb1343080e077fc63ef5c00d965dd71b46/vendor/scythe/gui/elements/Radio.lua";
-          sha256 = "1jr6g5g6lz0hdf6hsg6vqhzb1drcmvkmiy9713fq13xr2hf2ql07";
+          sha256 = "";
         }
         {
           path = ''../vendor/scythe/gui/elements/Slider.lua'';
@@ -1617,7 +1617,7 @@
         {
           path = ''../vendor/scythe/gui/elements/shared/option.lua'';
           url = "https://github.com/gwatcha/reaper-keys/raw/9b4b3f9568340bd74b2f4c7b0ccd8bc8a9485eca/vendor/scythe/gui/elements/shared/option.lua";
-          sha256 = "1h9igkp190d2hpw5qvipmr4986zqvxbpxbdpbj50ifsn8mgnjw06";
+          sha256 = "";
         }
         {
           path = ''../vendor/scythe/gui/elements/Frame.lua'';
@@ -1741,7 +1741,7 @@
         {
           path = ''../internal/utils/definitions.lua'';
           url = "https://github.com/gwatcha/reaper-keys/raw/ce354256566b292b533df07cbcfc568d19298b25/internal/utils/definitions.lua";
-          sha256 = "1f59qj852cbx08bn0x7zgfv5za1lssw25imkcwxyyg8s2avb2lxz";
+          sha256 = "";
         }
         {
           path = ''../internal/utils/format.lua'';
@@ -1961,7 +1961,7 @@
         {
           path = ''../vendor/scythe/gui/core.lua'';
           url = "https://github.com/gwatcha/reaper-keys/raw/ce354256566b292b533df07cbcfc568d19298b25/vendor/scythe/gui/core.lua";
-          sha256 = "1iyijlzxvbxsq5qvi77aaqw2z1fjsrdsaiginnswj4rwsxfn9zpw";
+          sha256 = "";
         }
         {
           path = ''../vendor/scythe/gui/window.lua'';

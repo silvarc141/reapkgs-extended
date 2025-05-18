@@ -3876,7 +3876,7 @@
         {
           path = ''libraries/functional_console/random.lua'';
           url = "https://github.com/Bird-Bird/ReaScript_Testing/raw/030480c19f9722d6afbf2ce29afb4f0c8837c210/Item%20Modifiers/libraries/functional_console/random.lua";
-          sha256 = "0byriphwsryavy9rkrmwvhrpfarr85rwmwjnvp79pr25lmr82h3k";
+          sha256 = "";
         }
         {
           path = ''libraries/functional_console/state.lua'';
