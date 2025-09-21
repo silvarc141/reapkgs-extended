@@ -1790,5 +1790,64 @@
         }
       ];
     };
+    reapack-ext-1-2-6 = mkReapackPackage {
+      inherit lib stdenv fetchurl;
+      name = "reapack-ext-1-2-6";
+      indexName = "ReaPack";
+      categoryName = "Extensions";
+      packageType = "extension";
+      sources = [
+        {
+          path = ''reaper_reapack-i386.dylib'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-i386.dylib";
+          sha256 = "19prk2hrsm9rwml9fw2328iycp4md8cq557bk4z2lmjp1a4nxv2h";
+        }
+        {
+          path = ''reaper_reapack-x86_64.dylib'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-x86_64.dylib";
+          sha256 = "17kxbpm1053lih9prsqv1gs7hhb1b8yknalhra216rrn9sbn3cj8";
+        }
+        {
+          path = ''reaper_reapack-arm64.dylib'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-arm64.dylib";
+          sha256 = "0yzhf6hyryn4ib2w1v3c6bzjyxn3v2j426cvshvr0ns05qxhyry7";
+        }
+        {
+          path = ''reaper_reapack-i686.so'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-i686.so";
+          sha256 = "0qx2nh8dd535a748dhaszm5nf7jfcx2zcdnnvinsmh1srbh9wh1n";
+        }
+        {
+          path = ''reaper_reapack-x86_64.so'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-x86_64.so";
+          sha256 = "1q673cnmb39zwdryip4rd3q1iai88xydiiw9ym59ck0pv1ihzn1m";
+        }
+        {
+          path = ''reaper_reapack-armv7l.so'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-armv7l.so";
+          sha256 = "0fk4xn7w844pcna72zgh15yhl86i8ahax5s84sgpks961hqnqara";
+        }
+        {
+          path = ''reaper_reapack-aarch64.so'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-aarch64.so";
+          sha256 = "18x21zkg5m2xd6ym0rqgx11lbn5v23fy4yj50d0hqxk76cp3r0zs";
+        }
+        {
+          path = ''reaper_reapack-x86.dll'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-x86.dll";
+          sha256 = "0kfyym7pxkn3zd1662jwarrzbsb46531cnvm30pp6w9wzv3wrvl8";
+        }
+        {
+          path = ''reaper_reapack-x64.dll'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-x64.dll";
+          sha256 = "1ps32amfz7xd2dys1nad9chfbkb4q8ysq4wlqr4pqka4z68wc2l2";
+        }
+        {
+          path = ''reaper_reapack-arm64ec.dll'';
+          url = "https://github.com/cfillion/reapack/releases/download/v1.2.6/reaper_reapack-arm64ec.dll";
+          sha256 = "0h96bvbr17i9hm7hvbcgcahdzjqbq93z1fw2yi9wd6g6k339aj6a";
+        }
+      ];
+    };
   };
 }
